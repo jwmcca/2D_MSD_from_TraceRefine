@@ -10,7 +10,7 @@ This script calculates 2D MSDs from input TraceRefine files from the package [SM
 - Feed a directory containing all TraceRefine files, then this code will iterate through all identified trajectories to calculate 2D MSDs for all tracks.
 - Example TraceRefine files are included in the folder "Example_TRs."
 - Output: Average 2D MSD, a structure with all individual MSDs, and distibutions of D and $\alpha$. 
-- All plotting uses the [rgb package](https://www.mathworks.com/matlabcentral/fileexchange/1805-rgb-m) from the MATLAB file exchange, written by Ben Mitch.
+- All plotting uses the [rgb package](https://www.mathworks.com/matlabcentral/fileexchange/1805-rgb-m) from the MATLAB file exchange, written by Ben Mitch. **You must download this yourself, otherwise the plotting functions won't work.**
 
 
 ## Sections.
