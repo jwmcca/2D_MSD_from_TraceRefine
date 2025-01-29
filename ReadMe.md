@@ -3,6 +3,7 @@
 Code written by Joshua W. McCausland. 
 
 Citation.
+
 McCausland JW, Yang X, Squyres GR, Lyu Z, Bruce KE, Lamanna MM, Soderstrom B, Garner EC, Winkler ME, Xiao J, Liu J. 2021. Treadmilling FtsZ polymers drive the directional movement of sPG-synthesis enzymes via a Brownian ratchet mechanism. [*Nature Communications* 12: 609](https://www.nature.com/articles/s41467-020-20873-y).
 
 ## General overview.
