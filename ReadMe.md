@@ -1,8 +1,6 @@
 # 2D MSD Calculation
 
-Code written by Joshua W. McCausland. 
-
-Citation.
+Code written by Joshua W. McCausland, originally featured in the publication below. Please cite this publication if you use the function.
 
 McCausland JW, Yang X, Squyres GR, Lyu Z, Bruce KE, Lamanna MM, Soderstrom B, Garner EC, Winkler ME, Xiao J, Liu J. 2021. Treadmilling FtsZ polymers drive the directional movement of sPG-synthesis enzymes via a Brownian ratchet mechanism. [*Nature Communications* 12: 609](https://www.nature.com/articles/s41467-020-20873-y).
 
