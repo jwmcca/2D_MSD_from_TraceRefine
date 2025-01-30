@@ -116,7 +116,7 @@ close all;
 
 % Set up parameters
 index = 11; %Farthest point to plot. Do not exceed smallest trajectory length.
-SaveName = 'ZipA_MSD'
+SaveName = 'Avg_MSD'
 figure_size = [5,4] % [width x height], inches
 y_limits = [0, 0.06]
 SaveFormat = 'PDF' % Input either PDF or PNG
