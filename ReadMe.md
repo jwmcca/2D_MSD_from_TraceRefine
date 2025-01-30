@@ -25,11 +25,15 @@ This section calculates the individual and average MSDs and saves them to struct
    - $b$ is the fitting error, to account for drift or localization error of the microscope. This adjusts the start point of each fit from a perfect $y=0$.
 
 The code seeks TraceRefine input files. These files are the output from [SMT_Unwrapping](https://github.com/XiaoLabJHU/SMT_Unwrapping), as stated above. Each original region and movie has one corresponding TraceRefine file. They have six main elements. TracksROI contains the trajectories of interest.
-![](example_outputs/TraceRefine_parent_structure.png){width=50%}
+<p align="center">
+   <img src="example_outputs/TraceRefine_parent_structure.png" width="400">
+</p>
 
 Within TracksROI are listed every single molecule trajectory and its relevant index from all the trajectories in TracksALL above.
 
-![](example_outputs/TracksROI_substructure.png){width=25%}
+<p align="center">
+   <img src="example_outputs/TracksROI_substructure.png" width="200">
+</p>
 
 Calling the "Coordinates" substructure reveals the trajectory itself. 
 - Column 1: Frame number. Convert to time by multiplying your frame time. 
@@ -37,7 +41,10 @@ Calling the "Coordinates" substructure reveals the trajectory itself.
 - Column 3: Y coordinates (pixels).
 - Column 4: Z coordinates (pixels). This is generated from 3D single molecule tracking.
 - Column 5: Spot intensity (inferred from ThunderSTORM FIJI plugin).
-![](example_outputs/example_coordinates.png){width=25%}
+
+<p align="center">
+   <img src="example_outputs/example_coordinates.png" width="200">
+</p>
 
 ### Section 2.
 Plot the average MSD. 
@@ -49,7 +56,9 @@ After measuring all the individual MSDs and generating the average MSD, the code
 - D: Diffusion coefficient (noted in MSD equation above).
 - $\alpha$: anomalous diffusion coefficient (as noted in MSD equation above).
 - N: Number of trajectories averaged for the MSD.
-![](example_outputs/average_MSD.png){width=50%}
+<p align="center">
+   <img src="example_outputs/average_MSD.png" width="300">
+</p>
 
 
 ### Section 3.
@@ -57,7 +66,9 @@ Plot the distribution of $D$ and $\alpha$ from individual trajectory fits.
     - Plots histograms of the individual $D$ and $\alpha$ values from the fits of individual trajectories.
     - Define the number of bins for the histograms in the beginning, and whether to set the scale of the Diffusion coefficient x axis to linear or log.
 
-![](example_outputs/coefficients.png){width=75%}
+<p align="center">
+   <img src="example_outputs/coefficients.png" width="500">
+</p>
 
 ### Section 4.
 Functions. Here, I just define the MSD calculation function.
